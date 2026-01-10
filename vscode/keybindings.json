@@ -1,0 +1,5 @@
+[
+  { "key": "cmd+o", "command": "projectManager.listGitProjects#sideBarGit" },
+  { "key": "cmd+e", "command": "workbench.action.files.openFileFolder" },
+  { "key": "cmd+y", "command": "workbench.action.files.openFileFolderInNewWindow" }
+]
