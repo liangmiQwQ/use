@@ -10,7 +10,7 @@
   // Cursor
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "solid",
   // Theme
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "Moegi Light",
@@ -82,6 +82,10 @@
   "terminal.integrated.defaultProfile.osx": "fish",
 
   /* Extension */
+  // Vim
+  "vim.cursorStylePerMode.normal": "block-outline",
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.useSystemClipboard": true,
   // Global
   "extensions.autoUpdate": "onlyEnabledExtensions",
 
