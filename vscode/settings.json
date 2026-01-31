@@ -121,10 +121,6 @@
   ],
   "oxc.requireConfig": true,
 
-  // use prettier if there is prettier config
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.requireConfig": true,
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
@@ -149,7 +145,6 @@
   "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
 
   "docker.extension.dockerEngineAvailabilityPrompt": false,
-  "githubPullRequests.pullBranch": "never",
   "mdb.mcp.server": "prompt",
   "github.copilot.enable": {
     "*": true,
