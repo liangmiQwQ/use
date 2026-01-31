@@ -1,5 +1,22 @@
 [
-  { "key": "cmd+o", "command": "projectManager.listGitProjects#sideBarGit" },
-  { "key": "cmd+e", "command": "workbench.action.files.openFileFolder" },
-  { "key": "cmd+y", "command": "workbench.action.files.openFileFolderInNewWindow" }
+  {
+    "key": "cmd+o",
+    "command": "projectManager.listGitProjects#sideBarGit"
+  },
+  {
+    "key": "cmd+y",
+    "command": "workbench.action.files.openFileFolderInNewWindow"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "cmd+r",
+    "command": "outline.focus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.scm.focus"
+  }
 ]
