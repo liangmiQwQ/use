@@ -49,6 +49,9 @@ pyenv install 3.13.0
 pyenv global 3.13.0
 
 
+# Golang Development
+brew install go
+
 
 # Shell (zsh + zim)
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
@@ -70,9 +73,12 @@ cp editor/settings.json ~/Library/Application\ Support/Antigravity/User/settings
 cat editor/extensions.txt | xargs -n 1 antigravity --install-extension
 
 
-# Terminal (Ghostty)
+# Terminal (Ghostty, Kitty)
 brew install --cask ghostty
 cp ghostty/config ~/Library/Application\ /com.mitchellh.ghostty/config
+
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+cp -r kitty ~/.config/kitty
 
 
 # JavaScript Development (fnm, Node, Bun, pnpm, yarn, global toolchains)
@@ -80,7 +86,7 @@ curl -o- https://fnm.vercel.app/install | bash
 fnm install 24.12.0
 corepack enable pnpm
 curl -fsSL https://bun.sh/install | bash
-pnpm add -g @antfu/ni @napi-rs/cli yarn vite-plus-cli opencode-ai
+pnpm add -g @antfu/ni @napi-rs/cli yarn vite-plus-cli opencode-ai live-server taze cspell
 
 
 # Rust Development (Rustup, just, useful tools)
@@ -89,4 +95,17 @@ cargo install cargo-binstall
 cargo binstall just cargo-insta cargo-shear cargo-workspaces cargo-edit -y
 
 
-# Neovim
+# Vim (Neovim, language-services)
+brew install neovim
+pnpm add -g dockerfile-language-server-nodejs typescript-language-server vls vscode-langservers-extracted pyright @microsoft/compose-language-service @tailwindcss/language-server @vue/language-server
+
+git clone https://github.com/liangmiQwQ/nvim-config ~/.config/nvim
+
+
+# Docker
+brew install docker
+brew install docker-compose
+
+
+# Others
+brew install bat
