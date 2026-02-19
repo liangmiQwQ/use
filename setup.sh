@@ -1,4 +1,11 @@
 #!/bin/bash
+set -e
+set -u
+
+
+# Xcode cli
+xcode-select --install 2>/dev/null || echo "Xcode Command Line Tools 已安装"
+
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
