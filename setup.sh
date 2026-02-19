@@ -12,6 +12,13 @@ cp git/.gitconfig ~/.gitconfig
 cp git/.gitignore ~/.gitignore
 
 
+# Basic Directories
+cd ~
+mkdir code
+mkdir video
+mkdir game
+
+
 # GPG for Git Commit Sign
 brew install gnupg
 gpg --batch --generate-key <<EOF
@@ -35,9 +42,18 @@ echo "Please copy it in https://github.com/settings/gpg/new \n"
 echo "Press any key to continue..."
 read -n 1 -s 
 
-# Shell (zsh + oh my zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# TODO: oh my zsh
+
+# Python Development
+brew install pyenv
+pyenv install 3.13.0
+pyenv global 3.13.0
+
+
+
+# Shell (zsh + zim)
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+cp zsh/.zshrc ~/.zshrc
+cp zsh/.zimrc ~/.zimrc
 
 
 # Editors (VSCode, Cursor, Antigravity)
@@ -57,3 +73,20 @@ cat editor/extensions.txt | xargs -n 1 antigravity --install-extension
 # Terminal (Ghostty)
 brew install --cask ghostty
 cp ghostty/config ~/Library/Application\ /com.mitchellh.ghostty/config
+
+
+# JavaScript Development (fnm, Node, Bun, pnpm, yarn, global toolchains)
+curl -o- https://fnm.vercel.app/install | bash
+fnm install 24.12.0
+corepack enable pnpm
+curl -fsSL https://bun.sh/install | bash
+pnpm add -g @antfu/ni @napi-rs/cli yarn vite-plus-cli opencode-ai
+
+
+# Rust Development (Rustup, just, useful tools)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cargo install cargo-binstall
+cargo binstall just cargo-insta cargo-shear cargo-workspaces cargo-edit -y
+
+
+# Neovim

@@ -1,0 +1,6 @@
+{
+  // IMPORTANT: it's just workspace editor settings, not real editor config
+  "files.associations": {
+    "*.zimrc": "shellscript"
+  }
+}
