@@ -1,7 +1,6 @@
 [user]
 	name = Liang Mi
 	email = github@liangmi.dev
-	signingkey = 9C576C3366CAAA19
 [http]
 	proxy = http://127.0.0.1:6152
 	postBuffer = 524288000
