@@ -63,8 +63,12 @@ For your reference, also for the day I get the new computer.
 
 2. Run the following script to setup other tools.
 
-```bash
-bash ./setup.sh
-```
+   ```bash
+   bash ./setup.sh
+   ```
 
-Enter the password when prompted.
+   It may request for password and confirmation. Just follow the prompt.
+
+   The tools the script install: XCode CLi, HomeBrew, Git, GitHub, Gnupg, Pyenv, Python, GoLang, Zsh, Zim, Editor extensions, Ghostty, Kitty, fnm, Node, Bun, Yarn, pnpm, Rust, Neovim and its language service, Bat, Docker, Docker Compose, Bat, FFmpeg, OpenCode, napi-rs-cli, vite-plus-cli, live-server, taze, cspell, just, cargo-binstall, cargo-shear, cargo-workspaces, cargo-edit, cargo-insta
+
+3. Install the rest apps above.

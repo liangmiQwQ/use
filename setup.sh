@@ -3,15 +3,15 @@ set -e
 set -u
 
 
-# Xcode cli
-xcode-select --install 2>/dev/null || echo "Xcode Command Line Tools 已安装"
+# XCode cli
+xcode-select --install 2>/dev/null
 
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
-# Git and Github
+# Git and GitHub
 brew install git
 brew install gh
 
@@ -116,3 +116,4 @@ brew install docker-compose
 
 # Others
 brew install bat
+brew install ffmpeg
