@@ -19,7 +19,7 @@ zmodule zsh-users/zsh-completions --fpath src
 zmodule completion
 
 # Highlighting
-zdharma-continuum/fast-syntax-highlighting
+zmodule zsh-users/zsh-syntax-highlighting
 # History search
 zmodule zsh-users/zsh-history-substring-search
 # Auto Suggestions
