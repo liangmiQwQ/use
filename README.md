@@ -35,7 +35,7 @@ For your reference, also for the day I get the new computer.
 - **Camera Resource Process**: [Gyroflow](https://gyroflow.app/)
 - **Subtitle**: [ArcTime Pro](https://arctime.org/)
 - **Image Process**: [Photoshop](https://www.adobe.com/products/photoshop.html)
-- **Logo Making**: [Inkscape](https://inkscape.org/)
+- **Logo Design**: [Figma](https://figma.com/)
 - **Poster Design**: [Scribus](https://www.scribus.net/)
 - **Map Animation**: [Google Earth Pro](https://www.google.com/earth/)
 
