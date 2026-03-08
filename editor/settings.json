@@ -157,7 +157,6 @@
   },
   "git.ignoreRebaseWarning": true,
   "svelte.enable-ts-plugin": true,
-  "chatgpt.cliExecutable": "/Users/liangmi/code/ai-setup/codex",
   "rust-analyzer.runnables.askBeforeUpdateTest": false,
   "json.schemaDownload.enable": true,
   "extensions.ignoreRecommendations": true,
