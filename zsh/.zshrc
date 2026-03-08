@@ -34,6 +34,7 @@ source ${ZIM_HOME}/init.zsh
 alias pnpx='pnpm dlx'
 alias j="just"
 alias c="cd ~/code"
+alias otp='oathtool --base32 --totp'
 
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"

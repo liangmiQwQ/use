@@ -38,7 +38,6 @@ Name-Email: $(git config user.email)
 Expire-Date: 0
 %no-protection
 EOF
-fi
 
 KEY_ID=$(gpg --list-secret-keys --keyid-format LONG | grep sec | cut -d'/' -f2 | cut -d' ' -f1)
 git config --global user.signingkey $KEY_ID
@@ -82,7 +81,7 @@ cat editor/extensions.txt | xargs -n 1 antigravity --install-extension
 
 # Terminal (Ghostty, Kitty)
 brew install --cask ghostty
-cp ghostty/config ~/Library/Application\ /com.mitchellh.ghostty/config
+cp ghostty/config ~/Library/Application\ Support/com.mitchellh.ghostty/config
 
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 cp -r kitty ~/.config/kitty
@@ -117,3 +116,4 @@ brew install docker-compose
 # Others
 brew install bat
 brew install ffmpeg
+brew install oath-toolkit
