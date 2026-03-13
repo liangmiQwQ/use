@@ -8,7 +8,7 @@ For your reference, also for the day I get the new computer.
 
 ### Development
 
-- **Terminal**: [Ghostty](https://ghostty.com/), [Kitty](https://sw.kovidgoyal.net/kitty/) (for nvim using)
+- **Terminal**: [Ghostty](https://ghostty.org/), [Kitty](https://sw.kovidgoyal.net/kitty/) (for nvim using)
 - **Shell**: [zsh](https://www.zsh.org/) with [zim](https://github.com/zimfw/zimfw)
 - **Editor / IDE**: [Antigravity](https://antigravity.google/download)(mainly), [IntelliJ IDEA Community](https://www.jetbrains.com/idea/)(for Minecraft mod development), [VSCode](https://code.visualstudio.com/)(for debugging), [Cursor](https://cursor.com/home?from=agents)(use it when having money)
 - **AI**: [OpenCode](https://opencode.ai/)
