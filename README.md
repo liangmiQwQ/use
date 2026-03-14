@@ -32,12 +32,12 @@ For your reference, also for the day I get the new computer.
 - **Video Editing**: [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 - **Screen**: [OBS Studio](https://obsproject.com/), [Screen Studio](https://www.screen.studio/)
 - **Animation**: [Keynote](https://www.apple.com/keynote/), [Slidev](https://sli.dev/)
-- **Camera Resource Process**: [Gyroflow](https://gyroflow.app/)
+- **Camera Resource Process**: [Gyroflow](https://gyroflow.xyz/)
 - **Subtitle**: [ArcTime Pro](https://arctime.org/)
 - **Image Process**: [Photoshop](https://www.adobe.com/products/photoshop.html)
 - **Logo Design**: [Figma](https://figma.com/)
-- **Poster Design**: [Scribus](https://www.scribus.net/)
-- **Map Animation**: [Google Earth Pro](https://www.google.com/earth/)
+- **Poster Design(Seldom)**: [Scribus](https://www.scribus.net/)
+- **Map Animation(Seldom)**: [Google Earth Pro](https://www.google.com/earth/)
 
 ### Gaming
 
