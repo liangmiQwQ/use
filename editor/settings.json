@@ -124,7 +124,6 @@
     "yaml",
     "toml"
   ],
-  "oxc.requireConfig": true,
 
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
