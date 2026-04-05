@@ -23,6 +23,7 @@
   "window.nativeTabs": true,
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
+  "window.openFoldersInNewWindow": "off",
   // Miscellaneous
   "workbench.startupEditor": "terminal",
   "editor.lineNumbers": "interval",
