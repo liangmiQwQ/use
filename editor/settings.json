@@ -140,9 +140,6 @@
 
   "hediet.vscode-drawio.resizeImages": null,
 
-  "projectManager.git.baseFolders": ["~/code"],
-  "projectManager.sortList": "Recent",
-
   "liveServer.settings.donotShowInfoMsg": true,
 
   "notebook.defaultFormatter": "vscode.markdown-language-features",
@@ -161,6 +158,5 @@
   "extensions.ignoreRecommendations": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
-  "claudeCode.preferredLocation": "panel",
   "git.enableCommitSigning": true
 }

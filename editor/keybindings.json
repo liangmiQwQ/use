@@ -1,7 +1,7 @@
 [
   {
     "key": "cmd+o",
-    "command": "projectManager.listGitProjects#sideBarGit"
+    "command": "workbench.action.createTerminalEditor"
   },
   {
     "key": "cmd+y",

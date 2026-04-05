@@ -30,14 +30,10 @@ if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} 
 fi
 source ${ZIM_HOME}/init.zsh
 
-# Personal alias and function
-alias pnpx='pnpm dlx'
+# Personal and functions
 alias j="just"
-alias c="cd ~/code"
 alias otp='oathtool --base32 --totp'
-ghc() {
-    git clone "https://github.com/$1"
-}
+alias h='ghostty --working-directory=$(pwd)'
 
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
